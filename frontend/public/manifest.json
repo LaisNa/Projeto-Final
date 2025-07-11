@@ -1,0 +1,15 @@
+{
+    "short_name": "IndieBoxd",
+    "name": "IndieBoxd",
+    "start_url": ".",
+    "display": "standalone",
+    "theme_color": "#1f2937",
+    "background_color": "#1f2937",
+    "icons": [
+        {
+            "src": "next.svg",
+            "sizes": "480x480",
+            "type": "image/png"
+        }
+    ]
+}

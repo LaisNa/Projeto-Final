@@ -1,0 +1,33 @@
+{
+  "name": "frontend",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "autoprefixer": "10.4.16",
+    "axios": "^1.5.1",
+    "eslint": "8.50.0",
+    "eslint-config-next": "13.5.3",
+    "moment": "^2.29.4",
+    "next": "13.5.3",
+    "postcss": "8.4.30",
+    "primeflex": "^4.0.0",
+    "primeicons": "^7.0.0",
+    "primereact": "^10.9.6",
+    "react": "18.2.0",
+    "react-hot-toast": "^2.4.1",
+    "typescript": "5.2.2"
+  },
+  "devDependencies": {
+    "@radix-ui/react-dialog": "^1.0.5",
+    "@radix-ui/react-dropdown-menu": "^2.0.6",
+    "@types/node": "20.7.0",
+    "@types/react": "18.2.23",
+    "sass": "^1.89.2"
+  }
+}

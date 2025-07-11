@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "nota": 10,
+    "descricao": "incrivel maravilhoso",
+    "gameId": 9767,
+    "userId": 1,
+    "userName": "lais"
+  },
+  {
+    "id": 2,
+    "nota": 2,
+    "descricao": "muito lento e fiquei perdido sou bem ruim",
+    "gameId": 9767,
+    "userId": 4,
+    "userName": "fulano"
+  }
+]

@@ -1,0 +1,159 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Scrollbar Styles */
+body::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    background-color: #121827;
+}
+
+body::-webkit-scrollbar {
+    width: 5px;
+    background-color: #121827;
+}
+
+body::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+    background-color: #212937;
+}
+
+body {
+    background-color: #0f1a24;
+}
+
+#root {
+    /* max-width: 1280px; */
+    margin: 0 auto;
+    /* padding: 2rem; */
+    text-align: center;
+}
+
+.container-portal {
+    position: relative;
+    max-width: 80rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.cabecalho {
+    background-color: #0f1a24;
+    border-bottom: 1px solid white;
+}
+
+.tela-inteira {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    /* height: 100vw; */
+    color: white;
+    background-color: #0f1a24;
+}
+
+.conteudo {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.content-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.card-custom {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+    padding: 1rem;
+    border: 1px solid #1c2e3f;
+    background-color: #142331;
+    border-radius: 1rem;
+    box-shadow: -1px 17px 27px -16px rgb(0 0 0 / 41%) !important;
+}
+
+.label-form {
+    display: block;
+    margin-bottom: 10px;
+    font-size: .875rem;
+    font-weight: 500;
+}
+
+input {
+    background-color: #142331;
+    color: #f9f9f9;
+}
+
+textarea {
+    background-color: #142331;
+    color: #f9f9f9;
+}
+
+.header {
+    position: relative;
+    z-index: 10;
+    margin: 1rem;
+    padding: 1rem;
+    background-color: #f9f9f9;
+}
+
+.titulo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.catalogo-link {
+    aspect-ratio: 1/1;
+    -webkit-filter: brightness(100%);
+    transition: all .2s ease-out;
+}
+
+.catalogo-link:hover {
+    -webkit-filter: brightness(120%);
+    transition: all .5s ease;
+}
+
+/* Classes de componentes do primereact */
+
+.p-password-input {
+    width: 100%;
+}
+
+/* Componente MenuBar geral */
+.p-menubar {
+    background-color: #0f1a24;
+}
+
+/* Componente dos botões da MenuBar */
+.p-menubar .p-menubar-root-list {
+    background-color: #0f1a24;
+}
+
+/* Componente dos botões da MenuBar ao passar o mouse */
+.p-menuitem-link:hover {
+    background-color: rgba(15, 26, 36, 0.9);
+    /* 90% opacidade */
+}
+
+.p-menuitem-text {
+    color: white;
+}
+
+.p-menuitem-icon {
+    color: #fff200;
+}
+
+.p-paginator {
+    background-color: #0f1a24;
+}

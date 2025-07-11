@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "email": "lais@gmail.com",
+    "user": "lais",
+    "password": "0fc24bd5846a1243:9978014731bd7297981fed24f3a76f8833ec89d04a2905a5f0c2f5599e324a96f72d7ca4ffc6477dae71156198096086a0e2583e09c6801900f60adb3566ec5d"
+  },
+  {
+    "id": 2,
+    "email": "lais123@gmail.com",
+    "user": "lais123",
+    "password": "de6884100a88eb42:a53bf4c9ce5b1fc8d7b8680bd87367d7b115c4b2fef04fb16247429a8ba5b4030ec973f45ec5df624c53749c8a1a454e7d5583603fcc8288d6061c8f6cca1ec2"
+  },
+  {
+    "id": 3,
+    "email": "vitor@gmail.com",
+    "user": "vitor",
+    "password": "bc4c8cba10d1fc33:0bb1d13c56ce3119d27c03635582d1ecede424ad96528138f5862281b0727fb5dc9fd10488a329502e907100e96d9987f9b261bd24c2d41d1d80e10df2d947f4"
+  },
+  {
+    "id": 4,
+    "user": "fulano",
+    "email": "fulano@gmail.com",
+    "password": "8fcf710983aec755:1ad6baef93bb46a38eac694f1c8555e4d85775e08b0969f9339125ad36f8afaf7b231b2de7586083c0ec2a86cd45dc0d89efe9d8ec4443744ae1e747a35d36d8"
+  },
+  {
+    "id": 5,
+    "user": "teste",
+    "email": "teste@gmail.com",
+    "password": "1344b8669459e63b:e969b1cf5e24309f18a92228f12a16a50d99ceefdb0e98ca5148b080f90943e6e74c7e058987b953a9c06006b24afef6945bba2d4829c9cbcf7fb72eaaefe6b9"
+  }
+]
