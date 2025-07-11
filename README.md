@@ -18,9 +18,13 @@ Assim, o projeto busca ser mais uma das iniciativas que mantém a arte dos jogos
 ## Tecnologias
 
 Frontend: React e NextJs 
+
 Biblioteca CSS: PrimeReact
+
 Cliente HTTP: Axios
+
 Backend: Express e JSON Webtoken
+
 Linguagens: Javascript e Typecript
 
 ## Como Rodar
@@ -28,11 +32,15 @@ Linguagens: Javascript e Typecript
 1. No arquivo ".env", informe a API_PORT (padrão 80).
 
 2. Na pasta "backend":
+
 2.a Execute no terminal o comando "npm install" para instalar as dependências necessárias para o projeto.
+
 2.b Execute no terminal o comando "npm run server" para rodar o servidor.
 
 3. Na pasta "frontend":
+
 3.a Execute no terminal o comando "npm install" para instalar as dependências necessárias para o projeto.
+
 3.b Execute no terminal o comando "npm run dev" para rodar o frontend.
 
 ## Bibliografia
